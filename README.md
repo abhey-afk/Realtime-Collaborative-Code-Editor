@@ -6,15 +6,32 @@ Are you tired of sending code snippets back and forth, struggling to debug and c
 
 ## Features
 
--Real-Time Code Collaboration: Multiple users can edit code simultaneously in real-time, with changes instantly visible to all participants.
--Built-in Compiler Integration: Code compilation directly within the editor, supporting multiple programming languages through RapidAPI for online code execution.
--Syntax Highlighting: Language-specific syntax highlighting for enhanced readability and easier debugging.
--Code Autocompletion: Intelligent code suggestions that speed up the coding process and improve productivity.
--Multi-Language Support: Supports various programming languages (e.g., Python, Java, C++, JavaScript) for flexibility in coding projects.
--User Authentication: Secure sign-in and registration system to allow personalized user sessions and maintain user privacy.
--Session Persistence: Automatically saves user sessions and code state, so users can resume where they left off.
--Error and Output Display: Shows compiler errors and execution output in a dedicated output console for easy debugging.
--Customizable Themes: Multiple editor themes are available to cater to different user preferences.
+Real-Time Code Collaboration
+Multiple users can edit code simultaneously in real time, with changes instantly visible to all participants.
+
+Built-in Compiler Integration
+Code compilation directly within the editor, supporting multiple programming languages through RapidAPI for online code execution.
+
+Syntax Highlighting
+Language-specific syntax highlighting for enhanced readability and easier debugging.
+
+Code Autocompletion
+Intelligent code suggestions that speed up the coding process and improve productivity.
+
+Multi-Language Support
+Supports various programming languages (e.g., Python, Java, C++, JavaScript) for flexibility in coding projects.
+
+User Authentication
+Secure sign-in and registration system to allow personalized user sessions and maintain user privacy.
+
+Session Persistence
+Automatically saves user sessions and code state, so users can resume where they left off.
+
+Error and Output Display
+Shows compiler errors and execution output in a dedicated output console for easy debugging.
+
+Customizable Themes
+Multiple editor themes are available to cater to different user preferences.
 
 Responsive Design: Fully responsive layout, making the editor accessible from various devices, including desktops, tablets, and mobile phones.
 ### Prerequisites
