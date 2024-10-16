@@ -2,19 +2,21 @@
 
 ## Introduction
 
-Are you tired of sending code snippets back and forth, struggling to debug and collaborate with your team? Look no further! **Sync Code** is here to revolutionize the way you code together. This powerful and intuitive collaborative code editor is designed to empower developers, and teams to work seamlessly in real-time, regardless of their location. With **Sync Code**, you can code together, debug together, and ship faster, together.
+Are you tired of sending code snippets back and forth, struggling to debug and collaborate with your team? Look no further! **Sync Code** is here to revolutionize the way you code together. This powerful and intuitive collaborative code editor empowers developers and teams to work seamlessly in real time, regardless of location. With **Sync Code**, you can code, debug, and ship faster.
 
 ## Features
 
-- Multiple users can join a room and edit code together
-- Changes are reflected in real time
-- Copy button to copy the room id to clipboard
-- Leave button to leave the room
-- Supports syntax highlighting for different programming languages
-- Users can choose theme based on their preferences
-- Users can leave the room and rejoin later to continue editing
-- Joining & leaving of users is also reflected in real time
+-Real-Time Code Collaboration: Multiple users can edit code simultaneously in real-time, with changes instantly visible to all participants.
+-Built-in Compiler Integration: Code compilation directly within the editor, supporting multiple programming languages through RapidAPI for online code execution.
+-Syntax Highlighting: Language-specific syntax highlighting for enhanced readability and easier debugging.
+-Code Autocompletion: Intelligent code suggestions that speed up the coding process and improve productivity.
+-Multi-Language Support: Supports various programming languages (e.g., Python, Java, C++, JavaScript) for flexibility in coding projects.
+-User Authentication: Secure sign-in and registration system to allow personalized user sessions and maintain user privacy.
+-Session Persistence: Automatically saves user sessions and code state, so users can resume where they left off.
+-Error and Output Display: Shows compiler errors and execution output in a dedicated output console for easy debugging.
+-Customizable Themes: Multiple editor themes are available to cater to different user preferences.
 
+Responsive Design: Fully responsive layout, making the editor accessible from various devices, including desktops, tablets, and mobile phones.
 ### Prerequisites
 
 #### For running via Docker
@@ -40,35 +42,6 @@ Are you tired of sending code snippets back and forth, struggling to debug and c
 
 ## Installation
 
-### Running via Docker Image (highly recommended)
-
-To run the docker image, follow the steps below:
-
-1. Install [Docker](https://www.docker.com/) on your machine.
-2. Pull the docker image from the docker hub by running `docker pull mohitur/code-editor`
-3. Run the docker image by running `docker run -p 8000:8000 -p 3000:3000 -p 5000:5000 mohitur/code-editor`
-4. Go to `http://localhost:3000` to view the app
-5. Create a room by clicking on the `create new room` button and put a username of your choice
-   5 . Copy the room id by clicking on the `Copy ROOM ID` button
-6. To join as an another user open another browser/browser-window or an incognito tab and go to `http://localhost:3000`
-7. Enter the same room id to join the same room
-
-Now both your editor will be synced and you can see the changes in real time. Try opening the same room in multiple browsers/browsers-windows and see the changes.
-
-**Note:** If you are using docker in wsl2/linux then add `sudo` before the docker commands.
-
-### Running via building your own Docker Image
-
-To run the app using docker, follow the steps below:
-
-1. Install [Docker](https://www.docker.com/) on your machine.
-2. Clone the project repository and Navigate to the project directory.
-3. Also you have to change ENV values in the Dockerfile
-4. Replace your username in docker-compose.yml file.
-5. Run the Docker Compose command: `docker-compose up -d`
-6. Go to `http://localhost:3000` to view the app
-7. Follow the steps 5-7 from the [Running via Docker Image](https://github.com/Mohitur669/Realtime-Collaborative-Code-Editor?tab=readme-ov-file#running-via-docker-image) section to create and join a room
-
 ### Running Locally
 
 1. Clone this repository and cd into it
@@ -77,7 +50,6 @@ To run the app using docker, follow the steps below:
 4. To start the react app client run `npm start` in one terminal
 5. To start the server run `npm server:dev` or `pm2 start server.js` in another terminal
 6. Go to `http://localhost:3000` to view the app
-7. Follow the steps 4-7 from the [Running via Docker Image](https://github.com/Mohitur669/Realtime-Collaborative-Code-Editor?tab=readme-ov-file#running-via-docker-image) section to create and join a room
 
 **Note:** To stop your server, press `Ctrl+c` or if you used "pm2", then use `pm2 stop server.js` in the terminal.
 
